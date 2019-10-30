@@ -10,9 +10,7 @@ env : python 3.6.8
 usage : python youtube_crawling.py {subscription_key} {channel_id}
 '''
 
-#subscription_key = "AIzaSyBn-a5we3nt_9chFZokm5WNZ4oLvd1OY9E"
 subscription_key = argv[1]
-#channel_id = "UCAxdWlT5uFu8_mxdFkhJ0rw"
 channel_id = argv[2]
 
 channels_url = "https://www.googleapis.com/youtube/v3/channels"
